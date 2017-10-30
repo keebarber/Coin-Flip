@@ -1,0 +1,88 @@
+html {
+  background-color: grey;
+}
+.flex-container {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.game{
+  background-color: lightblue;
+  margin-top: 100px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  border-radius: 50px;
+}
+
+p, button, input {
+  width: 300px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 10px;
+  /*padding: 20px;*/
+}
+
+#flip:hover {
+  opacity: .7;
+}
+
+#flip:active {
+  /*background-color: #3e8e41;*/
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+input {
+  text-align: center;
+}
+
+.flex-item {
+  text-align: center;
+  padding: 8px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tails, #heads, #correct, #incorrect {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  margin: 10px;
+  font-size: 1.5em;
+  border: none;
+}
+
+#reset {
+  display: flex;
+  justify-content: center;
+}
+#resetbutton {
+    border: 1px solid white;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #c0392b;
+    color: white;
+    font-weight: 700;
+}
+
+#reset:hover {
+  opacity: .7;
+}
+
+#reset:active {
+  /*background-color: #3e8e41;*/
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

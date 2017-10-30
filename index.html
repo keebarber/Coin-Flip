@@ -1,0 +1,37 @@
+	<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!--Main body of game UI-->
+   <div class="flex-container">
+    <div class = "game">
+      <h1>Coin Flip</h1>
+      <span class = "flex-item"><button id = "flip">Flip Coin</button></span>
+      <span class = "flex-item"><input id = "guess" placeholder = "Heads or Tails?" value="" /></span>
+      <span class = "flex-item"><h2 id = "result">Type your guess into the box.</h2></span>
+    </div>
+    <!--Statistics for game-->
+    <div class='stats'>
+      <p id='heads'>Heads: <span id='headscount'></span></p>
+      <p id='tails'>Tails: <span id='tailscount'></span></p>
+    </div>
+    
+    <div class='stats'>
+      <p id='correct'>Correct:<span id='correctcount'></span></p>
+      <p id='incorrect'>Incorrect:<span id='incorrectcount'></span></p>
+    </div>
+  </div>
+  
+  <!--Reset Button-->
+  <div id='reset'>
+    <button id='resetbutton'>Reset stats</button>
+  </div>
+    
+    <script src="index.js"></script>
+  </body>
+</html>
